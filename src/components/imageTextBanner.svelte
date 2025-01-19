@@ -8,7 +8,7 @@
 <div class={`flex w-screen mt-14 h-[450px] mb-2 px-40 ${className}`}>
   {#if imagePosition === "left"}
     <div
-      class="w-2/5 h-[350px] bg-no-repeat"
+      class="w-2/5 h-[350px] bg-no-repeat bg-cover"
       style="background-image: url({image})"
     ></div>
   {/if}
@@ -18,7 +18,7 @@
   </div>
   {#if imagePosition === "right"}
     <div
-      class="w-2/5 h-[350px] bg-no-repeat bg-right-top"
+      class="w-2/5 h-[350px] bg-no-repeat bg-right-top bg-cover"
       style="background-image: url({image})"
     ></div>
   {/if}

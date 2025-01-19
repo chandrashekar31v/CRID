@@ -1,5 +1,5 @@
 <script lang="ts">
-    import aboutUs from "../resources/images/aboutUs.png"
+    import aboutUs from "../resources/images/about-us-1.png"
 </script>
 
 <div class="flex w-screen mt-8 h-[400px] mb-2">

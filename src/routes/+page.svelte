@@ -10,7 +10,13 @@
   } from "../resources/data/cardsData";
   import ImageTextBanner from "../components/imageTextBanner.svelte";
   import { data } from "../resources/data/imageTextData";
-  import aboutUs from "../resources/images/aboutUs.png"
+  import aboutUs1 from "../resources/images/about-us-1.png"
+  import aboutUs2 from "../resources/images/about-us-2.jpg"
+  import aboutUs3 from "../resources/images/about-us-3.webp"
+  import aboutUs4 from "../resources/images/about-us-4.jfif"
+
+  const list = [aboutUs1,aboutUs2,aboutUs3,aboutUs4];
+
 </script>
 
 <div>
@@ -27,7 +33,7 @@
   <!-- Image Text Banner -->
   {#each data as item, index}
     <ImageTextBanner
-      image={aboutUs}
+      image={list[index]}
       imagePosition={index % 2 === 0 ? "left" : "right"}
       data={item}
     />
