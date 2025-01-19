@@ -1,7 +1,6 @@
 <!-- Home page -->
 
 <script>
-  import Header from "../components/Header.svelte";
   import SliderFloor from "../components/SliderFloor.svelte";
   import AboutUs from "../components/AboutUs.svelte";
   import CardsBanner from "../components/cardsBanner.svelte";
@@ -15,9 +14,6 @@
 </script>
 
 <div>
-  <!-- header -->
-  <Header />
-
   <!-- Top Slider -->
   <SliderFloor />
 

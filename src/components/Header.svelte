@@ -1,9 +1,10 @@
 <script>
   import logo from "../resources/images/logo.jpg"
+  import { goto } from '$app/navigation'
 </script>
 
 <div class="flex bg-gray-50">
-  <img src={logo} alt="logo" width={70} height={20} />
+  <img src={logo} on:click={()=>goto("/")} alt="logo" width={70} height={20} />
 
   <span class="flex justify-center items-center relative group">
     <button class=" hover:text-gray-400 ml-12"> Who are we </button>
