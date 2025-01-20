@@ -19,7 +19,7 @@
 
 </script>
 
-<div>
+<div class="w-screen p-0 m-0">
   <!-- Top Slider -->
   <SliderFloor />
 
@@ -27,8 +27,10 @@
   <AboutUs />
 
   <!-- cards banner -->
-  <CardsBanner cards={WorkForceManagement} title="Work For Management" />
+  <div class="hidden md:block">
+    <CardsBanner cards={WorkForceManagement} title="Work For Management" />
   <CardsBanner cards={ITManagedServices} title="IT Managed Services" />
+  </div>
 
   <!-- Image Text Banner -->
   {#each data as item, index}

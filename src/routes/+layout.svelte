@@ -4,7 +4,7 @@
     import ContactUs from "../components/ContactUs.svelte";
 </script>
 
-<div>
+<div class="w-screen">
     <Header />
     <slot />
     <ContactUs />

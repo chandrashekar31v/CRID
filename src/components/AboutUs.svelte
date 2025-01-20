@@ -2,12 +2,12 @@
     import aboutUs from "../resources/images/about-us-1.png"
 </script>
 
-<div class="flex w-screen mt-8 h-[400px] mb-2">
-  <div class="w-2/4 h-[350px] bg-no-repeat"
+<div class="md:flex max-w-screen mt-8 md:h-[400px] h-fit mb-2">
+  <div class="md:w-2/4 w-full md:h-[350px] h-[200px] bg-no-repeat"
   style="background-image: url({aboutUs})"
   >
   </div>
-  <div class="w-2/4 p-3">
+  <div class="md:w-2/4 w-full p-3">
     <h1 class="text-blue-600 font-bold text-3xl pb-4">About Us</h1>
     <p class="text-lg leading-8">
       Empowering Your Business With IT And HR Solutions, CRID Is Your
