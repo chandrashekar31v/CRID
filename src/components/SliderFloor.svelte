@@ -6,7 +6,7 @@
     1: [
       banner1,
       "altImage1",
-      "CRID is your partner in success.Strategic Partnerships for Agile IT & HR Excellence",
+      "CIRD is your partner in success.Strategic Partnerships for Agile IT & HR Excellence",
     ],
     2: [
       banner2,
