@@ -2,7 +2,7 @@
     import aboutUs from "../resources/images/about-us-1.png"
 </script>
 
-<div class="md:flex max-w-screen mt-8 md:h-[450px] h-fit mb-2 px-14">
+<div class="md:flex max-w-screen mt-8 h-fit mb-2 px-14">
   <div class="md:w-2/4 w-full md:h-[350px] h-[200px] bg-no-repeat"
   style="background-image: url({aboutUs})"
   >
