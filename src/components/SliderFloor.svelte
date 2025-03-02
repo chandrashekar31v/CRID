@@ -37,14 +37,14 @@
   class="bg-no-repeat px-4 md:bg-right-bottom"
   style="background-image: url({image_url[0]})"
 >
-  <div class="flex justify-center items-center w-2/4 h-5/6">
+  <div class="flex justify-center items-center md:w-2/4 w-3/4 h-[200px] md:h-5/6 ">
     <div class="h-fit md:p-8">
       <h1 class="text-blue-600 font-extrabold md:text-6xl text-2xl md:p-2">{image_url[2].split(".")[0]}</h1>
       <h3 class="md:text-3xl text-xl font-bold md:p-2">{image_url[2].split(".")[1]}</h3>
     </div>
   </div>
   <button
-    class="border-2 bg-blue-600 md:px-4 py-2 rounded-lg text-white mt-10 md:ml-20 hover:bg-blue-800"
+    class="border-2 bg-blue-600 md:px-4 px-3 py-2 rounded-lg text-white my-10 md:ml-20 hover:bg-blue-800 text-xs md:text-lg"
     >GET STARTED</button
   >
 </div>
